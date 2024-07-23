@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoSearchOutline } from "react-icons/io5";
 import { FaRegCircleUser } from "react-icons/fa6";
@@ -7,15 +7,15 @@ import { FaXmark } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 export const Navbar = () => {
-  const [sideBar, openSideBAR] = useState(false);
+  const [sideBar, setSidebar] = useState(false);
+  const toggleSidebar = () => {
+    setSidebar(!sideBar);
+  };
   return (
     <div className="w-full flex justify-center items-center h-fit fixed top-0 bg-white">
       <div className="flex flex-row justify-between md:w-[80%] w-[95%] h-full  p-3  items-center">
         <div className="">
-          <RxHamburgerMenu
-            className="cursor-pointer"
-            onClick={() => openSideBAR(!sideBar)}
-          />
+          <RxHamburgerMenu className="cursor-pointer" onClick={toggleSidebar} />
         </div>
         <div>
           <h1 className="font-bold">SUITPLUS</h1>
@@ -42,7 +42,7 @@ export const Navbar = () => {
         >
           <div className="relative md:w-[80%] w-[90%] flex items-center justify-center p-3">
             <FaXmark
-              onClick={() => openSideBAR(!sideBar)}
+              onClick={toggleSidebar}
               className="absolute cursor-pointer md:left-2 right-0 md:mt-0 mt-5"
             />
             <h1 className="font-bold md:flex hidden text-xl">SUITPLUS</h1>

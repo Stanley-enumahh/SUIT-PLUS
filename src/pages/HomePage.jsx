@@ -2,6 +2,8 @@ import { Hero } from "../components/Hero";
 import { Hero2 } from "../components/hero2";
 import { Hero3 } from "../components/hero3";
 import { BestMatch } from "../components/bestmatch";
+import { Trending } from "../components/Trending";
+import { Partners } from "../components/Partners";
 
 export default function HomePage() {
   return (
@@ -10,6 +12,8 @@ export default function HomePage() {
       <Hero2 />
       <Hero3 />
       <BestMatch />
+      <Trending />
+      <Partners />
     </div>
   );
 }
