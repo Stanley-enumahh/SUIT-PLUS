@@ -6,7 +6,7 @@ import partner4 from "../assets/image 18.png";
 export const Partners = () => {
   return (
     <div className="w-full h-full md:h-[350px] bg-[#151433] flex justify-center items-center ">
-      <div className="w-[80%] md:w-[50%] flex gap-10 flex-col mb-14 mt-10 md:mt-0 m:mb-0">
+      <div className="w-[80%] md:w-[50%] flex gap-10 flex-col mb-14 mt-10 md:mt-0 md:mb-0">
         <div>
           <h1 className="uppercase text-white text-lg md:font-normal font-semibold md:text-2xl text-center">
             “Proper Cloth has become a go-to source for made-to-measure shirts

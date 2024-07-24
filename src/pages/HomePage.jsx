@@ -4,6 +4,9 @@ import { Hero3 } from "../components/hero3";
 import { BestMatch } from "../components/bestmatch";
 import { Trending } from "../components/Trending";
 import { Partners } from "../components/Partners";
+import { BrandEdits } from "../components/BrandEdits";
+import { Reviews } from "../components/Reviews";
+import { LookBook } from "../components/ViewBook";
 
 export default function HomePage() {
   return (
@@ -14,6 +17,9 @@ export default function HomePage() {
       <BestMatch />
       <Trending />
       <Partners />
+      <BrandEdits />
+      <Reviews />
+      <LookBook />
     </div>
   );
 }

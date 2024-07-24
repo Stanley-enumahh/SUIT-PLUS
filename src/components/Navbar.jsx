@@ -12,7 +12,7 @@ export const Navbar = () => {
     setSidebar(!sideBar);
   };
   return (
-    <div className="w-full flex justify-center items-center h-fit fixed top-0 bg-white">
+    <div className="w-full flex justify-center items-center h-fit fixed top-0 bg-white z-50">
       <div className="flex flex-row justify-between md:w-[80%] w-[95%] h-full  p-3  items-center">
         <div className="">
           <RxHamburgerMenu className="cursor-pointer" onClick={toggleSidebar} />
