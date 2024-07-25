@@ -20,13 +20,13 @@
 @media screen and (max-width: 720px) {
   .piece::before {
     width: 86%;
-    height: 85%;
+    height: 90%;
     left: 25px;
     margin-top: 60px;
   }
   .piece2::before {
      width: 86%;
-     height: 85%;
+     height: 90%;
     left: 25px;
     margin-top: 60px;
   }
