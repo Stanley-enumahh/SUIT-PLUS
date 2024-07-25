@@ -7,7 +7,7 @@
   left: 120px;
   z-index: -1;
 }
-.piece::after {
+.piece2::before {
   content: "";
   position: absolute;
   width: 500px;
@@ -19,15 +19,15 @@
 
 @media screen and (max-width: 720px) {
   .piece::before {
-    width: 340px;
-    height: 660px;
+    width: 86%;
+    height: 85%;
     left: 25px;
-    top: 1880px;
+    margin-top: 60px;
   }
-  .piece::after {
-    width: 340px;
-    height: 660px;
+  .piece2::before {
+     width: 86%;
+     height: 85%;
     left: 25px;
-    top: 2640px;
+    margin-top: 60px;
   }
 }

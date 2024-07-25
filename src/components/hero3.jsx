@@ -5,8 +5,8 @@ import saxepieceMobile from "../assets/saxepieceMobile.png";
 
 export const Hero3 = () => {
   return (
-    <div className="w-[90%] md:h-screen h-fit piece  flex items-center justify-between md:flex-row flex-col">
-      <div className="md:w-[47%] w-[80%]  h-fit md:h-[80%] flex  md:items-center">
+    <div className="w-[90%] md:h-screen h-fit flex items-center justify-between md:flex-row flex-col gap-8 md:gap-0">
+      <div className="md:w-[47%] w-[80%] piece h-fit md:h-[80%] flex  md:items-center">
         <div className="flex md:flex-row flex-col md:gap-0 gap-10  justify-between items-center w-full left-[-50px] h-[80%]">
           <div className="h-full overflow-hidden w-full flex items-center">
             <img
@@ -42,7 +42,7 @@ export const Hero3 = () => {
         </div>
       </div>
       {/* element start */}
-      <div className="md:w-[47%] w-[80%] md:mt-0 mt-7  h-fit md:h-[80%] flex  md:items-center">
+      <div className="md:w-[47%] w-[80%] md:mt-0 mt-7 piece2 h-fit md:h-[80%] flex  md:items-center">
         <div className="flex md:flex-row flex-col md:gap-0 gap-10  justify-between items-center w-full left-[-50px] h-[80%]">
           <div className="h-full overflow-hidden w-full flex items-center">
             <img
