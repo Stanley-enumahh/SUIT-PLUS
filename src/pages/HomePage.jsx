@@ -7,6 +7,7 @@ import { Partners } from "../components/Partners";
 import { BrandEdits } from "../components/BrandEdits";
 import { Reviews } from "../components/Reviews";
 import { LookBook } from "../components/ViewBook";
+import { Footer } from "../components/Footer";
 
 export default function HomePage() {
   return (
@@ -20,6 +21,7 @@ export default function HomePage() {
       <BrandEdits />
       <Reviews />
       <LookBook />
+      <Footer />
     </div>
   );
 }

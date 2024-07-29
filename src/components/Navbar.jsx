@@ -13,7 +13,7 @@ export const Navbar = () => {
   };
   return (
     <div className="w-full flex justify-center items-center h-fit fixed top-0 bg-white z-50">
-      <div className="flex flex-row justify-between md:w-[80%] w-[95%] h-full  p-3  items-center">
+      <div className="flex flex-row justify-between md:w-[90%] w-[95%] h-full  p-3  items-center">
         <div className="">
           <RxHamburgerMenu className="cursor-pointer" onClick={toggleSidebar} />
         </div>
@@ -50,7 +50,7 @@ export const Navbar = () => {
           <div className="md:mt-0 mt-6">
             <ul className="text-sm flex flex-col gap-8 text-[#191919]">
               <li>
-                <Link>Trends</Link>
+                <Link to="/trends">Trends</Link>
               </li>
               <li>
                 <Link className="flex flex-row gap-4 items-center justify-center">
