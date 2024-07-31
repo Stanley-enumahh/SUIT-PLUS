@@ -3,7 +3,8 @@ import * as ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import App from "./App";
-import Trends from "./components/Trends/TrendHero";
+import Trends from "./components/Trends/Trends";
+import AboutUs from "./components/AboutUs/about";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/trends",
     element: <Trends />,
+  },
+  {
+    path: "/aboutUs",
+    element: <AboutUs />,
   },
 ]);
 

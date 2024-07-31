@@ -40,7 +40,7 @@ export const Navbar = () => {
             sideBar ? "left-0" : "left-[-100%]"
           }`}
         >
-          <div className="relative md:w-[80%] w-[90%] flex items-center justify-center p-3">
+          <div className="relative w-[90%] flex items-center justify-center p-3">
             <FaXmark
               onClick={toggleSidebar}
               className="absolute cursor-pointer md:left-2 right-0 md:mt-0 mt-5"
@@ -50,7 +50,14 @@ export const Navbar = () => {
           <div className="md:mt-0 mt-6">
             <ul className="text-sm flex flex-col gap-8 text-[#191919]">
               <li>
-                <Link to="/trends">Trends</Link>
+                <Link onClick={toggleSidebar} to="/">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link onClick={toggleSidebar} to="/trends">
+                  Trends
+                </Link>
               </li>
               <li>
                 <Link className="flex flex-row gap-4 items-center justify-center">
@@ -62,7 +69,9 @@ export const Navbar = () => {
                 <Link>Custom Made</Link>
               </li>
               <li>
-                <Link>About us</Link>
+                <Link onClick={toggleSidebar} to="/aboutUs">
+                  About us
+                </Link>
               </li>
               <li>
                 <Link>Contact us</Link>
@@ -70,7 +79,7 @@ export const Navbar = () => {
               <ul className="mt-8 md:mt-10 flex flex-col gap-4">
                 <li className="">
                   <Link>Log in</Link>
-                </li>{" "}
+                </li>
                 <li>
                   <Link>Create Account</Link>
                 </li>
