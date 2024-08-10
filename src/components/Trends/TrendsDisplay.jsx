@@ -1,16 +1,16 @@
 import { IoIosStar } from "react-icons/io";
 import { IoStarOutline } from "react-icons/io5";
 import { IoIosArrowDown } from "react-icons/io";
-import trending1Img from "../../assets/Trendimages/Mask group (4).png";
-import trending2Img from "../../assets/Trendimages/Mask group (5).png";
-import trending3Img from "../../assets/Trendimages/Mask group (6).png";
-import trending4Img from "../../assets/Trendimages/Mask group (15).png";
-import trending5Img from "../../assets/Trendimages/Mask group (8).png";
-import trending6Img from "../../assets/Trendimages/Mask group (9).png";
-import trending7Img from "../../assets/Trendimages/Mask group (13).png";
-import trending8Img from "../../assets/Trendimages/Mask group (11).png";
-import trending9Img from "../../assets/Trendimages/Mask group (12).png";
-import filterIcon from "../../assets/Trendimages/lets-icons_filter.png";
+import trending1Img from "../../assets/Mask group (4).png";
+import trending2Img from "../../assets/Mask group (5).png";
+import trending3Img from "../../assets/Mask group (6).png";
+import trending4Img from "../../assets/Mask group (15).png";
+import trending5Img from "../../assets/Mask group (8).png";
+import trending6Img from "../../assets/Mask group (9).png";
+import trending7Img from "../../assets/Mask group (13).png";
+import trending8Img from "../../assets/Mask group (11).png";
+import trending9Img from "../../assets/Mask group (12).png";
+import filterIcon from "../../assets/lets-icons_filter.png";
 
 const TrendData = [
   {
@@ -50,7 +50,7 @@ export const TrendsSection = () => {
           <button className="flex text-xs border p-2 items-center justify-center flex-row gap-2">
             <img className="w-5" src={filterIcon} /> Filter
           </button>
-          <button className="flex text-xs border px-4 p-2 items-center justify-center flex-row gap-2">
+          <button className="flex text-xs border hover:text-white hover:bg-[#151433] transition-all duration-150 px-4 p-2 items-center justify-center flex-row gap-2">
             Featured <IoIosArrowDown />
           </button>
         </div>

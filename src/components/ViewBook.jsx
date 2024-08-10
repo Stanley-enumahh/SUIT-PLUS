@@ -18,7 +18,7 @@ export const LookBook = () => {
           />
         </div>
         <div className="absolute w-full h-full flex justify-center items-center">
-          <button className="border border-white px-7 md:px-5 py-3 text-white text-xs">
+          <button className="border hover:bg-[#151433] hover:text-white transition-all duration-150 hover:border-none border-white px-7 md:px-5 py-3 text-white text-xs">
             View Look Book
           </button>
         </div>

@@ -1,5 +1,5 @@
-import TrendBg from "../../assets/Trendimages/TrendImage.png";
-import TrendBgMobile from "../../assets/Trendimages/image_27 1 (1).png";
+import TrendBg from "../../assets/TrendImage.png";
+import TrendBgMobile from "../../assets/image_27 1 (1).png";
 import { Navbar } from "../Navbar";
 
 export default function TrendMain() {

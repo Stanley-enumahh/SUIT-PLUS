@@ -60,13 +60,16 @@ export const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link className="flex flex-row gap-4 items-center justify-center">
+                <Link
+                  to="/eventspage"
+                  className="flex flex-row gap-4 items-center justify-center"
+                >
                   Events
                   <IoIosArrowDown />
                 </Link>
               </li>
               <li>
-                <Link>Custom Made</Link>
+                <Link to="/customPage">Custom Made</Link>
               </li>
               <li>
                 <Link onClick={toggleSidebar} to="/aboutUs">
@@ -78,10 +81,14 @@ export const Navbar = () => {
               </li>
               <ul className="mt-8 md:mt-10 flex flex-col gap-4">
                 <li className="">
-                  <Link>Log in</Link>
+                  <Link onClick={toggleSidebar} to="/Login">
+                    Log in
+                  </Link>
                 </li>
                 <li>
-                  <Link>Create Account</Link>
+                  <Link onClick={toggleSidebar} to="/CreateAccount">
+                    Create Account
+                  </Link>
                 </li>
               </ul>
             </ul>
