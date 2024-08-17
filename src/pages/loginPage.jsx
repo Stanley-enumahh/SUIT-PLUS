@@ -4,7 +4,7 @@ export default function Login() {
   return (
     <div className="flex w-full h-screen justify-center items-center">
       <Navbar />
-      <div className=" flex h-[70%] flex-col gap-5 w-[35%] bg-blue-50 px-12 py-8">
+      <div className=" flex h-[70%] flex-col gap-5 w-[90%] md:w-[35%] bg-blue-50 md:px-12 px-5 md:py-8 py-5 justify-center md:justify-start">
         <h2 className="font-bold text-lg">Account Login</h2>
         <div className="flex flex-col gap-7">
           <div className="flex flex-col gap-1">
