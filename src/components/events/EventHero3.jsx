@@ -20,13 +20,12 @@ export const EventHero3 = () => {
             DRESS LIKE A BOSS
           </h1>
           <p className=" md:text-start text-center text-xs md:text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-            obcaecati quaerat quis facere harum, in necessitatibus aliquid
-            mollitia sequi porro corrupti nesciunt, repellat iure? Obcaecati
-            cupiditate tenetur aperiam possimus iusto?
+            Discover the art of dressing like a boss with our curated collection
+            of premium suits tailored to elevate your professional wardrobe and
+            reflect your personal style.
           </p>
           <div className="w-full flex justify-center">
-            <button className="mt-6 md:mt-14 border border-[#191919] bg-transparent md:px-5 px-8 md:py-2  py-1 hover:bg-[#151433] hover:text-white transition-all duration-150">
+            <button className="mt-6 md:mt-6 border border-[#191919] bg-transparent md:px-5 px-8 md:py-2  py-1 hover:bg-[#151433] hover:text-white transition-all duration-150">
               SHOP NOW
             </button>
           </div>

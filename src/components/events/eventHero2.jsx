@@ -56,7 +56,7 @@ export const EventHero2 = () => {
             alt="men on blue suit"
           />
           <img
-            className="w-ful flex md:hiddenl h-full object-cover"
+            className="w-ful flex md:hidden h-full object-cover"
             src={maskGoup9}
             alt="men on blue suit"
           />

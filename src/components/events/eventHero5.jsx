@@ -9,13 +9,12 @@ export const EventHero5 = () => {
           <h2 className=" font-bold uppercase md:text-md text-xl">
             BOOK A CONSULTATION
           </h2>
-          <p className="md:w-[70%] w-full text-xs md:text-start pt-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-            obcaecati quaerat quis facere harum, in necessitatibus aliquid
-            mollitia sequi porro corrupti nesciunt
+          <p className="md:w-[50%] w-full text-xs md:text-start pt-5">
+            Book an appointment today and discover a tailored suit that commands
+            respect and confidence
           </p>
 
-          <div className="w-full md:mt-10 mt-3 flex md:mb-0 justify-start">
+          <div className="w-full md:mt-6 mt-3 flex md:mb-0 justify-start">
             <button className="mt-4 md:mt-8 border justify-center md:justify-start border-[#191919] bg-[#151433] text-white md:px-7 px-8 md:py-2  py-3 hover:bg-transparent hover:text-[#191919] text-sm transition-all duration-150">
               Book now
             </button>

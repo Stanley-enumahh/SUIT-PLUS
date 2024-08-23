@@ -10,7 +10,7 @@ export const Partners = () => {
         <div>
           <h1 className="uppercase text-white text-lg md:font-normal font-semibold md:text-2xl text-center">
             “Proper Cloth has become a go-to source for made-to-measure shirts
-            for even the most discerning menswea customer.”
+            for even the most discerning menswear customer.”
           </h1>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-y-4 items-center justify-center">

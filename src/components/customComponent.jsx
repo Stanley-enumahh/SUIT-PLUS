@@ -56,10 +56,10 @@ export const CustomComp = () => {
           <div className="mt-100vh md:mt-[10vh] lg:mt-[20%]">
             <hr className="bg-black-1000 mt-16 me-5" />
             <div className="flex justify-between mt-5 mb-2 me-5">
-              <button className="border justify-center md:justify-start border-[#191919] bg-transparent md:px-6 px-14 md:py-2 lg:py-2 py-4 hover:bg-[#191919] hover:text-white transition-all duration-150">
+              <button className="border justify-center md:justify-start border-[#191919] bg-transparent md:px-7 px-14 md:py-2 lg:py-2 py-4 hover:bg-[#191919] hover:text-white transition-all duration-150">
                 Prev
               </button>
-              <button className="border border-[#191919] bg-[#191919] text-white md:px-6 px-14 md:py-2 lg:py-0  py-2 lg:me-  hover:bg-transparent hover:text-[#191919] transition-all duration-150">
+              <button className="border border-[#191919] bg-[#191919] text-white md:px-7 px-14 md:py-2 lg:py-0  py-2 lg:me-  hover:bg-transparent hover:text-[#191919] transition-all duration-150">
                 Next
               </button>
             </div>
