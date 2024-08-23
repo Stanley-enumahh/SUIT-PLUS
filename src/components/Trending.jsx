@@ -28,7 +28,7 @@ export const Trending = () => {
         <h1 className="font-bold md:text-lg text-xl">TRENDING</h1>
         <p className="text-sm">
           Keep up with the latest trends and take a deep dive into our world at
-          Suit+
+          Suitplus
         </p>
       </div>
 
