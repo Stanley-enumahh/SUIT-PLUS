@@ -15,30 +15,39 @@ import filterIcon from "../../assets/lets-icons_filter.png";
 const TrendData = [
   {
     image: trending1Img,
+    title: "Black Suit",
   },
   {
     image: trending2Img,
+    title: "Azure Allure Suit",
   },
   {
     image: trending3Img,
+    title: "Serenity Blue Suit",
   },
   {
     image: trending5Img,
+    title: "Urban Slate Suit",
   },
   {
     image: trending6Img,
+    title: "Urban Slate Suit",
   },
   {
     image: trending8Img,
+    title: "Black Suit",
   },
   {
     image: trending9Img,
+    title: "Royal Blue Power Suit",
   },
   {
     image: trending7Img,
+    title: "Serenity Blue Suit",
   },
   {
     image: trending4Img,
+    title: "Graphite Glamour Suit",
   },
 ];
 
@@ -70,7 +79,7 @@ export const TrendsSection = () => {
 };
 
 const TrendingDetails = (props) => {
-  const { image } = props.data;
+  const { image, title } = props.data;
   return (
     <div className="h-full w-full md:w-[390px] flex flex-col justify-between md:gap-5 gap-8">
       <div className="md:h-[80%] w-full">
@@ -79,7 +88,7 @@ const TrendingDetails = (props) => {
       <div className="flex flex-col md:flex-row justify-center md:items-start items-center md:text-start text-center md:gap-0 gap-1 md:justify-between md:h-[50px] h-fit ">
         <div className="flex flex-col justify-between md:gap-1 gap-2">
           <h3 className="font-bold md:text-lg text-xl md:font-semibold">
-            Boss
+            {title}
           </h3>
           <p className="text-gray-900 text-sm md:text-xs">Hugo Wool Tuxedo</p>
         </div>

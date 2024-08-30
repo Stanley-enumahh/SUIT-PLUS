@@ -1,4 +1,7 @@
 import { Navbar } from "../components/Navbar";
+import instagram from "../assets/Vector.png";
+import google from "../assets/Icons.png";
+import facebook from "../assets/Color- (1).png";
 
 export default function Login() {
   return (
@@ -35,10 +38,30 @@ export default function Login() {
           <div className="w-full flex justify-end text-xs text-blue-700">
             <a href="#">forgot password</a>
           </div>
-          <div className="w-full flex justify-end text-xs">
+          <div className="w-full flex-col flex justify-end items-center gap-4 text-xs">
             <button className="w-full bg-[#151433] text-gray-300 py-2">
               Login
             </button>
+            <a className=" text-xs text-blue-700" href="#">
+              login with
+            </a>
+            <div className="flex flex-row gap-6 w-[40%] ">
+              <img
+                src={google}
+                className="object-fit size-6 cursor-pointer"
+                alt=""
+              />
+              <img
+                src={facebook}
+                className="object-fit size-6 cursor-pointer"
+                alt=""
+              />
+              <img
+                src={instagram}
+                className="object-fit size-6 cursor-pointer"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>

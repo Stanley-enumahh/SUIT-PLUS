@@ -33,28 +33,24 @@ export const EventHero3 = () => {
       </div>
 
       <div className="flex md:flex-row-reverse flex-col md:gap-10 gap-7 justify-between items-center md:h-screen h-fit">
-        <div className="md:w-[90%] w-full justify-center md:h-full flex items-center">
+        <div className="md:w-[50%] w-full justify-end md:h-full flex items-center">
           <img
             className="md:w-[80%] w-[90%]  h-full object-contain"
             src={hero3}
-            alt="Couple dressedy
-             for wedding"
+            alt="man on gray suit"
           />
         </div>
-        <div className="md:w-[50%] w-full h-full md:text-start text-center md:justify-center justify-start flex flex-col md:p-24 px-8 md:gap-4 gap-3">
+        <div className="md:w-[50%] md:ml-16 w-full h-full md:text-start text-center md:justify-center justify-start flex flex-col md:p-24 px-8 md:gap-4 gap-3">
           <div className=" flex md:justify-start justify-center w-full">
             <p className="h-[3px] md:w-[60px] w-[50px] bg-black"></p>
           </div>
           <h1 className="uppercase font-bold text-sm md:text-xl">
-            LOREM IPSUM
+            OWN EVERY OCCASION
           </h1>
           <p className=" md:text-start text-center text-xs md:text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-            voluptatum autem aliquid, asperiores facere reiciendis dignissimos
-            beatae nemo suscipit delectus voluptates dolores aut, odit, eum quis
-            quod voluptate sint error?
+            Find the perfect suit for any event, from formal to casual.
           </p>
-          <div className="w-full flex justify-center mb-7">
+          <div className="w-full flex  mb-7">
             <button className="mt-6 md:mt-14 border border-[#191919] bg-transparent md:px-5 px-8 md:py-2  py-1 hover:bg-[#151433] hover:text-white transition-all duration-150">
               SHOP NOW
             </button>
