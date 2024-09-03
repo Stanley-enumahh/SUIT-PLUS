@@ -33,7 +33,7 @@ export const EventHero3 = () => {
       </div>
 
       <div className="flex md:flex-row-reverse flex-col md:gap-10 gap-7 justify-between items-center md:h-screen h-fit">
-        <div className="md:w-[50%] w-full justify-end md:h-full flex items-center">
+        <div className="md:w-[50%] w-full justify-center md:justify-end md:h-full flex items-center">
           <img
             className="md:w-[80%] w-[90%]  h-full object-contain"
             src={hero3}
@@ -50,7 +50,7 @@ export const EventHero3 = () => {
           <p className=" md:text-start text-center text-xs md:text-sm">
             Find the perfect suit for any event, from formal to casual.
           </p>
-          <div className="w-full flex  mb-7">
+          <div className="w-full flex justify-center md:justify-start md:mb-7">
             <button className="mt-6 md:mt-14 border border-[#191919] bg-transparent md:px-5 px-8 md:py-2  py-1 hover:bg-[#151433] hover:text-white transition-all duration-150">
               SHOP NOW
             </button>

@@ -1,15 +1,10 @@
 import { Navbar } from "./Navbar";
 import HomeBgImage from "../assets/Mask group.jpg";
 import HomeBgImageMobile from "../assets/image 19.png";
-import playIcon from "../assets/Polygon 1.png";
+
 const HomeBg = () => {
   return (
     <div className="w-full flex justify-center items-center flex-col md:h-full h-[65%]">
-      <img
-        className="p-3 md:p-5 rounded-full bg-[#D1D1D1] absolute w-[40px] md:w-[70px]"
-        src={playIcon}
-      />
-
       <img
         className="object-cover w-full h-full md:flex hidden"
         src={HomeBgImage}

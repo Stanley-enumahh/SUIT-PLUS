@@ -28,11 +28,7 @@ export const Hero3 = () => {
             <div>
               <h1 className="text-2xl md:text-xl font-bold">BLACK PIECE</h1>
             </div>
-            <p className="md:hidden flex text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              culpa rem impedit sint porro at adipisci accusantium et similique
-              iusto ns
-            </p>
+
             <div>
               <button className="bg-[#151433] text-white px-10 md:px-8 py-2 text-sm mb-14">
                 EXPLORE
@@ -64,11 +60,7 @@ export const Hero3 = () => {
             <div>
               <h1 className="text-2xl md:text-xl font-bold">SAXE PIECE</h1>
             </div>
-            <p className="md:hidden flex text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              culpa rem impedit sint porro at adipisci accusantium et similique
-              iusto ns
-            </p>
+
             <div>
               <button className="bg-[#151433] text-white px-10 md:px-8 py-2 text-sm mb-14">
                 EXPLORE
