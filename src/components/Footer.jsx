@@ -24,7 +24,7 @@ export const Footer = () => {
               <li className="text-sm flex flex-col md:gap-8 text-gray-400">
                 <p>No 4 Marja Close 2 Abuja</p>
                 <p>+2349099653136</p>
-                <p>Instagram Suit+_</p>
+                <p>Instagram Suit-plus</p>
               </li>
             </ul>
           </div>

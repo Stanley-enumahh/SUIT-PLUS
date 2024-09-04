@@ -87,7 +87,7 @@ const TrendingDetails = (props) => {
       </div>
       <div className="flex flex-col md:flex-row justify-center md:items-start items-center md:text-start text-center md:gap-0 gap-1 md:justify-between md:h-[50px] h-fit ">
         <div className="flex flex-col justify-between md:gap-1 gap-2">
-          <h3 className="font-bold md:text-lg text-xl md:font-semibold">
+          <h3 className="font-bold md:text-lg text-lg md:font-semibold">
             {title}
           </h3>
           <p className="text-gray-900 text-sm md:text-xs">Hugo Wool Tuxedo</p>
